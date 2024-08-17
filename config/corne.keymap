@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC   &kp EXCL         &kp AT           &kp HASH         &kp DLLR         &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp DEL   &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp CAPS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                            &kp LGUI         &trans           &kp ENTER          &kp SPACE  &trans     &kp RALT
+&kp ESC   &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp DEL   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp NUMBER_0    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp CAPS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                      &kp LGUI      &trans        &kp ENTER       &kp SPACE  &trans     &kp RALT
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F11  &kp F12  &bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 2    &trans     &kp UP    &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp BSPC
-&kp DELETE  &kp F6   &kp F7   &kp F8          &kp F9        &kp F10         &kp LEFT   &trans    &kp RIGHT   &bl BL_OFF         &bl BL_ON        &bl BL_CYCLE
-&trans      &kp F1   &kp F2   &kp F3          &kp F4        &kp F5          &trans     &kp DOWN  &trans      &rgb_ug RGB_OFF    &rgb_ug RGB_ON   &rgb_ug RGB_EFF
-                              &kp LGUI        &trans        &kp ENTER       &kp SPACE  &trans    &kp RALT
+&bt BT_CLR_ALL  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans     &kp UP    &trans     &trans           &trans          &trans
+&bt BT_SEL 1    &kp F6   &kp F7   &kp F8      &kp F9             &kp F10            &kp LEFT   &trans    &kp RIGHT  &bl BL_OFF       &bl BL_ON       &bl BL_CYCLE
+&bt BT_SEL 2    &kp F1   &kp F2   &kp F3      &kp F4             &kp F5             &trans     &kp DOWN  &trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF
+                                  &kp LGUI    &trans             &kp ENTER          &kp SPACE  &trans    &kp RALT
             >;
         };
     };
