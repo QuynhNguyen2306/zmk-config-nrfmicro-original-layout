@@ -57,14 +57,5 @@
                                   &to 0       &to 1         &kp ENTER          &kp SPACE  &to 2     &to 0
             >;
         };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans          &trans  &trans
-            >;
-        };
     };
 };
