@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
     keymap {
@@ -56,6 +55,15 @@
 &kp LEFT_SHIFT  &kp F6   &kp F7   &kp F8      &kp F9        &kp F10            &kp LEFT   &trans    &kp RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(195,100,50)
 &kp LCTRL       &kp F1   &kp F2   &kp F3      &kp F4        &kp F5             &trans     &kp DOWN  &trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF
                                   &to 0       &to 1         &kp ENTER          &kp SPACE  &to 2     &to 0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans  &trans
             >;
         };
     };
