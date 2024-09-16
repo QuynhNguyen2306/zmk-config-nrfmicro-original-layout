@@ -54,7 +54,7 @@
 &kp PRINTSCREEN  &kp F11  &kp F12  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP    &trans         &kp UP    &trans     &trans           &trans           &kp DELETE
 &kp LEFT_SHIFT   &kp F6   &kp F7   &kp F8      &kp F9        &kp F10            &kp LEFT       &trans    &kp RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(195,100,50)
 &kp LCTRL        &kp F1   &kp F2   &kp F3      &kp F4        &kp F5             &trans         &kp DOWN  &trans     &bt BT_CLR_ALL   &bt BT_SEL 0     &rgb_ug RGB_EFF
-                                   &to 0       &to 1         &kp LEFT_ALT       &kp RIGHT_ALT  &to 2     &to 3
+                                   &to 0       &to 1         &kp ENTER          &kp RIGHT_ALT  &to 2     &to 3
             >;
         };
 
