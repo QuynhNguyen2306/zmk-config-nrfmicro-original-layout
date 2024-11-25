@@ -46,6 +46,8 @@
         };
 
         layer_3 {
+
+            display-name = "Excel";
             bindings = <
 &kp DELETE      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp U      &kp I           &kp F2          &kp BACKSPACE
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp ASTERISK          &kp SLASH              &kp COMMA  &kp PERIOD      &kp UP_ARROW    &kp F4
