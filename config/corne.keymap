@@ -10,22 +10,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    macros {
-        sum_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp S &kp U &kp M &kp LPAR>;
-            label = "NEW_MACRO";
-        };
-
-        vlookup_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp V &kp L &kp O &kp O &kp K &kp U &kp P &kp LPAR>;
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
