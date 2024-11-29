@@ -10,6 +10,22 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    macros {
+        sum_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp S &kp U &kp M &kp LPAR>;
+            label = "NEW_MACRO";
+        };
+
+        vlookup_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp V &kp L &kp O &kp O &kp K &kp U &kp P &kp LPAR>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -48,7 +64,7 @@
         layer_3 {
             display-name = "Excel";
             bindings = <
-&kp DELETE      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp U      &kp I           &kp F2          &kp BACKSPACE
+&kp DELETE      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp I      &kp SEMICOLON   &kp F2          &kp BACKSPACE
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp ASTERISK          &kp SLASH              &kp EQUAL  &kp PERIOD      &kp UP_ARROW    &kp F4
 &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B           &kp PLUS              &kp MINUS              &kp COMMA  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                             &to 0         &to 1         &kp ENTER       &kp SPACE             &to 2                  &to 3
